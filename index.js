@@ -7,7 +7,7 @@ app.use(cors());
 
 const MJPEG_SOURCE = 'http://212.112.136.4:83/mjpg/video.mjpg?camera=1';
 
-app.get('/cam', (req, res) => {
+app.get('/', (req, res) => {
 	req.pipe(request(MJPEG_SOURCE)).pipe(res);
 });
 
