@@ -7,7 +7,7 @@ import cors from "cors";
 // ====== Конфигурация ======
 const PORT = process.env.PORT || 3000;
 const API_SPORTS_BASE = process.env.API_SPORTS_BASE || "https://v3.football.api-sports.io";
-const API_SPORTS_KEY  = process.env.API_SPORTS_KEY || "PUT_YOUR_KEY_HERE";
+const API_SPORTS_KEY  = process.env.API_SPORTS_KEY || "bcc59e56fb2a06c97bd272d304809cb3";
 
 // MJPEG източник (оставям твоя по подразбиране)
 const MJPEG_URL = process.env.MJPEG_URL || "http://212.112.136.4:83/mjpg/video.mjpg?camera=1";
