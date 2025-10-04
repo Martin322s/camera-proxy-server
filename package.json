@@ -1,15 +1,11 @@
 {
   "name": "camera-proxy-server",
   "version": "1.0.0",
-  "description": "MJPEG + API-Football CORS proxy for frontend apps",
+  "description": "MJPEG + API-Football proxy with CORS fix",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js"
-  },
-  "engines": {
-    "node": ">=18"
+    "start": "node index.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
