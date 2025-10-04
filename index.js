@@ -8,7 +8,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 // 🔑 сложи си твоя ключ тук ↓↓↓
-const API_KEY = "bcc59e56fb2a06c97bd272d304809cb3";
+const API_KEY = "30b35d10551986274e707cc2124b2ae5";
 
 // 🌍 базов URL за API Football
 const API_FOOTBALL_TARGET = "https://v3.football.api-sports.io";
