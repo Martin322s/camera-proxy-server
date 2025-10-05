@@ -7,7 +7,7 @@ import { createProxyMiddleware } from "http-proxy-middleware";
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const API_KEY = "30b35d10551986274e707cc2124b2ae5";
+const API_KEY = "bcc59e56fb2a06c97bd272d304809cb3";
 const API_FOOTBALL_TARGET = "https://v3.football.api-sports.io";
 
 const MJPEG_URL = "http://212.112.136.4:83/mjpg/video.mjpg?camera=1";
