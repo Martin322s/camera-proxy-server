@@ -3,7 +3,7 @@ import express from "express";
 
 const app = express();
 
-const MJPEG_URL = "http://212.112.136.4:83/mjpg/video.mjpg?camera=1";
+const MJPEG_URL = "http://64.191.148.57/mjpg/video.mjpg";
 
 app.get("/cam", (req, res) => {
 	res.setHeader("Access-Control-Allow-Origin", "*");
